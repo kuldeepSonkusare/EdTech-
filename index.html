@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* background-color: rgb(255, 255, 179); */
+            /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        }
+
+
+        header {
+            display: grid;
+            grid-template-columns: 20% 80%;
+            background-color: #000;
+            margin-bottom: 0px;
+        }
+
+        header div img {
+            width: 100%;
+        }
+
+        .heads {
+            float: right;
+            position: absolute;
+            right: 180px;
+            top: 234px;
+            font-size: 2em;
+            color: white;
+        }
+
+        .popularCourseshead {
+            padding-bottom: 25px;
+            padding-top: 20px;
+
+            padding-left: 30px;
+        }
+
+
+
+        footer * {
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        footer {
+            padding-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background-color: #000;
+            margin-top: 40px;
+            padding-top: 25px;
+        }
+
+        .footeritem {
+            padding-top: 25px;
+        }
+
+        ol {
+
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            list-style: none;
+            margin-top: 35px;
+        }
+
+
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .banner {
+            width: 100%;
+            height: 400px;
+        }
+
+        .popularCourses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figure ul {
+            padding-left: 20px;
+        }
+
+        .popularCourses img {
+            width: 100%;
+            height: 230px;
+        }
+
+
+
+
+
+        .card {
+            max-width: 260px;
+            border-radius: 0.5rem;
+            background-color: #fff;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            border: 1px solid transparent;
+            box-shadow: 15px 15px 30px #aeaeae,
+                -15px -15px 30px #ffffff;
+        }
+
+        .card a {
+            text-decoration: none
+        }
+
+        .content {
+            padding: 1.1rem;
+        }
+
+        .image {
+            object-fit: cover;
+            width: 260px;
+            height: 122px;
+            background-color: rgb(239, 205, 255);
+        }
+
+        .image img {
+            width: 260px;
+            height: 122px;
+        }
+
+        .title {
+            color: #111827;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+        }
+
+        .desc {
+            margin-top: 0.5rem;
+            color: #6B7280;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .card {
+            margin: 35px;
+        }
+
+        .icon {
+            display: flex;
+            margin-left: 280px;
+            margin-right: 280px;
+        }
+
+        .iconcard {
+            width: 110px;
+            height: 110px;
+            border-radius: 3px;
+            margin: 40px 10px;
+            background: #ffffff;
+            box-shadow: 5px 5px 5px #d0d0d0,
+                -5px -5px 5px #d0d0d0;
+
+        }
+
+        .reviewscard {
+            display: flex;
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+
+        .rcard {
+            width: 360px;
+            height: 250px;
+            border-radius: 3px;
+            margin: 40px 10px;
+            background: #ffffff;
+            box-shadow: 5px 5px 5px #d0d0d0,
+                -5px -5px 5px #d0d0d0;
+        }
+
+        #process {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #knowus{
+            background-image: url(https://www.achieversit.com/assets/images/know-us2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    align-items: center;
+    color: white;
+        }
+
+        #knowh1{
+            text-align: center;
+        }
+
+        .pknowus{
+            font-size: 20px;
+    text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo">
+        </div>
+        <nav>
+            <ol>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="client.html">Clients</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blogs</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <!--banner section-->
+
+    <section>
+        <h1 class="heads">AMAZON WEB SERVICES COURSE</h1>
+        <img class="banner" src="https://www.achieversit.com/assets/images/aws_training.jpg" alt="banner">
+    </section>
+    <!--popular courses-->
+    <h2 class="popularCourseshead">Popular courses</h2>
+    <section class="popularCourses">
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/ui-dev.jpg" alt="" />
+            <figcaption>UI Development</figcaption>
+            <ul>
+                <li>Visual communication skills</li>
+                <li> Prototyping</li>
+                <li> Wireframing</li>
+            </ul>
+        </figure>
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/react-img21.png" alt="" />
+            <figcaption>React</figcaption>
+            <ul>
+                <li>Performance</li>
+                <li>Extensions</li>
+                <li>Conditional statements</li>
+            </ul>
+        </figure>
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/angular-img1.png" alt="" />
+            <figcaption>Angular</figcaption>
+            <ul>
+                <li>Data binding</li>
+                <li>Dependency Injection</li>
+                <li>Cdk listbox</li>
+            </ul>
+        </figure>
+    </section>
+    <!--Trending courses-->
+    <h2 class="popularCourseshead">Trending courses</h2>
+    <div class="row">
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\angural.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\react.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\mean.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\mearn.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Treanding course second section -->
+
+    <div class="row">
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\web dev.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\digi mar.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\reactc.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="d:\AIT\project_1\images\cources\ionic dev.PNG" alt="course img">
+            </div>
+            <div class="content">
+                <a href="#">
+                    <span class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                </a>
+
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Discover Top Categories -->
+    <h2 class="popularCourseshead">Discover Top Categories</h2>
+
+    <div class="icon">
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn1.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn2.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn3.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn4.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn5.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn6.PNG" alt="icon" width="100%">
+        </div>
+
+    </div>
+    <div class="icon">
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn7.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn8.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn9.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn10.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn11.PNG" alt="icon" width="100%">
+        </div>
+        <div class="iconcard">
+            <img src="d:\AIT\project_1\images\cources\icn12.PNG" alt="icon" width="100%">
+        </div>
+    </div>
+
+    <!-- Reviews -->
+
+    <h2 class="popularCourseshead">Reviews</h2>
+
+    <div class="reviewscard">
+        <div class="rcard">
+            <img src="d:\AIT\project_1\images\cources\rew1.PNG" alt="rew" width="100%">
+        </div>
+        <div class="rcard">
+            <img src="d:\AIT\project_1\images\cources\rew2.PNG" alt="rew" width="100%">
+        </div>
+        <div class="rcard">
+            <img src="d:\AIT\project_1\images\cources\rew3.PNG" alt="rew" width="100%">
+        </div>
+    </div>
+    <img src="d:\AIT\project_1\images\cources\rew4.PNG" alt="rew" width="100%">
+
+    <!-- Acheivers IT Edge -->
+    <h2 class="popularCourseshead">Acheivers IT Edge</h2>
+    <img src="d:\AIT\project_1\images\cources\Acheivers IT Edge.PNG" alt="rew" width="100%">
+
+    <!-- Our Trainers From -->
+    <h2 class="popularCourseshead">Our Trainers From</h2>
+    <img src="d:\AIT\project_1\images\cources\trainers.PNG" alt="rew" width="100%">
+
+    <!-- AchieversIT Process -->
+    <h2 class="popularCourseshead">AchieversIT Process</h2>
+    <img id="process" src="d:\AIT\project_1\images\cources\process.jpg" alt="rew">
+
+    <!-- Latest Job Openings -->
+    <h2 class="popularCourseshead">Latest Job Openings</h2>
+    <img src="d:\AIT\project_1\images\cources\latest jobs.PNG" alt="rew" width="100%">
+
+    <!-- Our Corporate Clients -->
+    <h2 class="popularCourseshead">Our Corporate Clients</h2>
+    <img src="d:\AIT\project_1\images\cources\clients.PNG" alt="rew" width="100%">
+
+<!-- know us better -->
+
+<div id="knowus">
+
+    <h1 id="knowh1">Know us better for your future</h1>
+    <hr>
+    <p class="pknowus" >
+    			We, AchieversIT are here to assist you in gaining the best deal of knowledge and landing at your dream
+    			job.
+    			Fresher or experienced, we always have a hope to hop into new domains and fields to quicken up the pace
+    			in our career growth. AchieversIT is dedicated to its services to enhance your skills to make a better
+    			move towards a better future in your career.
+    </p>
+    <br>
+    <p class="pknowus">
+        AchieversIT has been delivering outstanding quality
+    				training in IT sector courses. 8 years of experience in furnishing qualitative training, AchieversIT
+    				has gained its own fame in leading an individual to land at their dream job.
+    </p>
+
+    <br>
+    <p class="pknowus">
+        Are you looking out for a job or job switch?
+    				Despite the fact that your background relates to technical or non-technical, you can always find a
+    				choice for you with us. AchieversIT is your best training partner to help you move forward in your
+    				career with confidence and ample amount of knowledge. AchieversIT provides different trainings to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta at autem maxime. Eum autem officia doloribus asperiores exercitationem incidunt error minima rerum tenetur consequuntur unde accusamus voluptatibus, nam molestiae ab dicta distinctio modi ratione quia quae recusandae dolores. Reprehenderit soluta quasi dolor, non corrupti eveniet temporibus expedita cum tempora voluptates.
+    				boost up your vocation, namely :
+    </p>
+    <br>
+    <p class="pknowus">
+        Are you looking out for a job or job switch?
+    				Despite the fact that your background relates to technical or non-technical, you can always find a
+    				choice for you with us. AchieversIT is your best training partner to help you move forward in your
+    				career with confidence and ample amount of knowledge. AchieversIT provides different trainings to
+    				boost up your vocation, namely :
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim rem doloremque libero accusantium possimus ut quos numquam hic perspiciatis excepturi! Voluptatem, ex ab. Molestias aspernatur voluptatum nemo harum provident quas.
+    </p>
+    <br>
+    <p class="pknowus">
+        Are you looking out for a job or job switch?
+    				Despite the fact that your background relates to technical or non-technical, you can always find a
+    				choice for you with us. AchieversIT is your best training partner to help you move forward in your
+    				career with confidence and ample amount of knowledge. AchieversIT provides different trainings to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta at autem maxime. Eum autem officia doloribus asperiores exercitationem incidunt error minima rerum tenetur consequuntur unde accusamus voluptatibus, nam molestiae ab dicta distinctio modi ratione quia quae recusandae dolores. Reprehenderit soluta quasi dolor, non corrupti eveniet temporibus expedita cum tempora voluptates.
+    				boost up your vocation, namely :
+                    <br>
+    <p class="pknowus">
+        Are you looking out for a job or job switch?
+    				Despite the fact that your background relates to technical or non-technical, you can always find a
+    				choice for you with us. AchieversIT is your best training partner to help you move forward in your
+    				career with confidence and ample amount of knowledge. AchieversIT provides different trainings to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta at autem maxime. Eum autem officia doloribus asperiores exercitationem incidunt error minima rerum tenetur consequuntur unde accusamus voluptatibus, nam molestiae ab dicta distinctio modi ratione quia quae recusandae dolores. Reprehenderit soluta quasi dolor, non corrupti eveniet temporibus expedita cum tempora voluptates.
+    				boost up your vocation, namely :
+</div>
+
+
+    <!--Footer section-->
+    <footer>
+        <section>
+            <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo footer">
+            <p>AchieversIT - Provides a wide group of opportunities for freshers and Experienced candidate who can
+                develop their skills and build their career opportunities across multiple Companies.</p>
+        </section>
+        <section class="footeritem">
+            <h2>COMPANY</h2>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Placements</a>
+                </li>
+                <li>
+                    <a href="#">Corporate Training</a>
+                </li>
+                <li>
+                    <a href="#">Contact US</a>
+                </li>
+            </ul>
+        </section>
+        <section class="footeritem">
+            <h2>TRENDING COURSES</h2>
+            <ul>
+                <li>
+                    <a href="#">UI Development Course</a>
+                </li>
+                <li>
+                    <a href="#">Angular JS Course</a>
+                </li>
+                <li>
+                    <a href="#">React JS Course</a>
+                </li>
+                <li>
+                    <a href="#">Digital Marketing Course</a>
+                </li>
+                <li>
+                    <a href="#">Python Course</a>
+                </li>
+            </ul>
+        </section>
+        <section class="footeritem">
+            <h2>CONTACT INFO</h2>
+            <ul>
+                <li>
+                    <a href="#">#63, 1st Floor, 16th Main, 8th Cross,BTM 1st Stage, Bangalore, India - 560029</a>
+                </li>
+                <li>
+                    <a href="#">India : +91 8431-040-457</a>
+                </li>
+                <li>
+                    <a href="#">info@achieversit.com</a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
